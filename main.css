@@ -1,0 +1,54 @@
+body {
+	font-family: arial, sans-serif;
+	text-align: center;
+	font-size: 38px;
+	line-height: 1.4
+	background-color: white;
+	}
+
+.green{
+    color: green;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+.green:hover{
+	cursor: pointer;
+    font-size: 1em;
+    background-color:green;
+    color:white;
+}
+
+.lightpink {
+	color: pink;
+    background-color: white;
+    cursor: pointer;
+}
+
+.lightpink:hover{
+	cursor: pointer;
+    font-size: 1em;
+    background-color:pink;
+    color:white;
+}
+
+.shape {
+  width: 400px;
+  height: 40px;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  background-color: #fde989;
+  -webkit-transform: rotate(45deg);
+  -webkit-transition: all 1s ease-in-out;
+}
+
+
+.shape:hover {
+  border-radius: 3000px;
+  width: 150px;
+  height: 150px;
+  background-color: #f891ff;
+  -webkit-transform: scale(2.25);
+  cursor: pointer;
